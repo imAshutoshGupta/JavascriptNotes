@@ -17,3 +17,5 @@ console.log(arr.length)
 console.log(arr[4])  // undefined (because doesnt exist)
 console.log(arr.indexOf(10)) //0
 console.log(arr.indexOf(100)) //-1
+
+
