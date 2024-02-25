@@ -47,6 +47,9 @@ console.log(10>2 || 10>5);
 
 console.log(!10>5);
 
+console.log("----ternary----");
+console.log(10>3 ? "yes":"no");
+
 
 
 
