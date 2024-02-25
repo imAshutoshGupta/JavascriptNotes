@@ -28,4 +28,16 @@ for(price in prices){
     console.log(price,prices[price]);
 }
 
+// 5 numbers using while loop
+let p = 1
+while(p <= 5){
+    console.log(p)
+    p++
+}
 
+// do while loop
+let q = 1
+do{
+    console.log(q)
+    q++
+} while (q<=5)
