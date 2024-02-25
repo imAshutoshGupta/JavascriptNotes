@@ -14,3 +14,13 @@ if(b>9 && b<100){
 else {
     console.log( `${b} is not two digit number`)
 }
+
+//largest among three numbers
+let x=10, y=5,  z=7;
+if (x > y && x >z ) {
+    console.log( `The largest number is ${x}` );
+} else if (y > x && y > z) {
+    console.log( `The largest number is ${y}` );
+} else {
+    console.log( `The largest number is ${z}` );
+}
