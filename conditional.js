@@ -24,3 +24,32 @@ if (x > y && x >z ) {
 } else {
     console.log( `The largest number is ${z}` );
 }
+
+//switch case
+let day_number = Number(prompt("enter a number"))
+console.log(typeof(day_number))
+switch (day_number){
+    case 0:
+        alert("today is sunday")
+        break;
+    case 1:
+        alert("today is monday")
+        break;
+    case 2:
+        alert("today is tuesday")
+        break;
+    case 3:
+        alert("today is wednesday")
+        break;
+    case 4:
+        alert("today is thursday")
+        break;
+    case 5:
+        alert("today is friday")
+        break;
+    case 6:
+        alert("today is saturday")
+        break;
+    default:
+        alert("enter a number")
+}
