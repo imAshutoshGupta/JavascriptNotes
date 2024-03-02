@@ -29,8 +29,12 @@ console.log(data4);
 data5 = [...data4,99,...data1,78,98,...data2]
 console.log(data5);
 
-
-
+data6 = {name:"raj",age:30}
+data7 = {salary:35000, city:"pune"}
+x = {data6,data7}
+console.log(x);
+emp = {...data6, data7}
+console.log(emp);
 
 
 
