@@ -18,3 +18,63 @@ let btn3 = document.getElementById("btn3")
 btn3.addEventListener("click",()=>{
     newtag.innerHTML = "<h1>This is your new heading</h1>"
 })
+
+//...spread operator
+data1 = [10,20]
+data2 = [11,22]
+data3 = [data1, data2]
+console.log(data3);
+data4 = [...data1,...data2]
+console.log(data4);
+data5 = [...data4,99,...data1,78,98,...data2]
+console.log(data5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
